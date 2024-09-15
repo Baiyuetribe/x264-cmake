@@ -19,10 +19,10 @@
 .depend
 .DS_Store
 TAGS
-config.h
+# config.h
 config.mak
 config.log
-x264_config.h
+# x264_config.h
 x264
 checkasm
 

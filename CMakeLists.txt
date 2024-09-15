@@ -250,3 +250,7 @@ endif()
 if(X264_ENABLE_TOOL AND X264_SHARED_TOOL)
     target_link_libraries(x264 PRIVATE x264.shared)
 endif()
+
+
+install(FILES x264.h x264_config.h DESTINATION include)
+install(TARGETS x264.static DESTINATION lib)
